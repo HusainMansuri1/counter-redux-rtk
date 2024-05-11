@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "rootDir": "./src",
+        "baseUrl": "./src",
+        "paths": {
+            "@redux-app/*": ["./app/*"],
+            "@redux-features/*": ["./features/*"],
+            "@components/*": ["./components/*"]    
+        }
+    }
+}
